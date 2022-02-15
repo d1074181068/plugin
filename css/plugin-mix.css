@@ -1,0 +1,334 @@
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    font-family: Microsoft JhengHei;
+}
+
+.top-bt a {
+    display: block;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(0, 204, 153);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    position: fixed;
+    right: 5%;
+    bottom: 18%;
+    z-index: 100;
+}
+.header{
+    height:560px
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 199;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    display: block;
+    width: 177px;
+    height: 36px;
+    background-image:url(../images/logo.png) ;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.menu li{
+    margin: 0px 20px;
+}
+.menu >li>a:hover {
+    color:rgb(0, 204, 153);
+    padding:15px 25px;
+    border-bottom: 5px solid rgb(0, 204, 153);
+}
+.menu a{
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding:20px 25px;
+}
+.menu-course{
+    display: none;
+    position: absolute;
+    top:56px;
+    right:120px;
+}
+.menu-course li,.menu-faq li{
+    margin: -1px 0px;
+    border: 1px solid black;
+    background-color: gray;
+}
+.menu-course li a,.menu-faq li a{
+    color:white;
+}
+.menu-course li a:hover,.menu-faq li a:hover{
+    color:black;
+    background-color: white;
+}
+
+.menu-faq{
+    display: none;
+    position: absolute;
+    top:56px;
+    right:40px;
+}
+.swiper {
+    width: 1000px;
+    height: 490px;
+  }
+
+.banner-bt{
+    
+    width:180px;
+}
+.banner-bt a{
+    display: block;
+    position:absolute;
+    bottom:-70px;
+    right:0;
+    width: 130px;
+    padding: 15px 20px 15px 30px;
+    color:white;
+    background-color:  rgb(0, 204, 153);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 10px;
+    
+}
+
+.content{
+    padding: 0px 40px 40px;
+}
+
+.teacher{
+    margin-bottom: 20px;
+}
+.teacher-intro{
+    display: flex;
+    justify-content: space-evenly;
+}
+.teacher-intro a{
+    display: block;
+    padding:20px 20px;
+}
+.teacher-intro li{
+    padding-bottom: 20px;
+}
+.teacher-intro li:hover{
+    border-bottom: 5px solid rgb(0, 204, 153);
+    padding-bottom:15px;
+}
+
+.teacher-intro li img{
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+}
+.teacher-intro h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 45px;
+}
+
+.top-course .banner-svg{
+    position:absolute;
+    bottom:-55px;
+    right:30px;
+    stroke:white;
+    stroke-width:2;
+    stroke-linejoin:miter;
+    fill: none;
+}
+
+.top-course {
+    position:relative;
+}
+.top-course-title{
+    display: flex;
+    justify-content: space-between;
+}
+.top-course-title h2,.teacher h2{
+    color:gray;
+    font-size: 18px;
+}
+.top-course-title span,.teacher h2 span,.compare h2 span{
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 10px;
+    color:rgb(0, 204, 153)
+}
+.top-course-title a{
+    display: block;
+    width: 80px;
+    color:rgb(0, 204, 153);
+    border:2px solid rgb(0, 204, 153);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    align-self: center;
+    padding: 5px;
+}
+.top-course-title a:hover{
+    background-color: rgb(0, 204, 153);
+    color: white;
+}
+.course-list{
+    display: flex;
+    margin-top: 25px;
+}
+.course-list li{
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 3px 6px gray;
+}
+.course-list img{
+    margin-bottom: 15px;
+}
+.course-list h3{
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.course-list li p{
+    text-align:initial;
+    line-height: 1.5;
+    color: gray;
+    font-size: 15px;
+}
+.html5,.rwd{
+    margin-right: 15px;
+}
+.compare{
+    margin-top:90px;
+}
+.compare h2{
+    color:gray;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.tb-compare{
+    margin: 0 auto;
+    width: 100%;
+}
+.tb-compare span{
+    color:rgb(0, 204, 153);
+}
+.tb-title{
+    background-color:rgb(235, 235, 235);
+}
+.tb-compare td{
+    border-bottom: 0.5px solid #E5E4E2;
+}
+.tb-title th,.tb-compare td{
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.tb-compare tr:hover{
+    background-color:#FFEBCD;
+}
+.tb-compare .tb-title:hover{
+    background-color:rgb(235, 235, 235);
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(235, 235, 235) ;
+    margin-top: 30px;
+    padding: 140px 50px 30px 60px;
+}
+.contact p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 80px;
+    line-height: 1.5;
+}
+.contact-form input{
+    display: block;
+}
+.contact-form input[type="text"],.contact-form input[type="email"]{
+    width: 350px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border:0px solid black;
+    padding-left: 10px;
+}
+.submit{
+    display: flex;
+    justify-content: flex-end;
+}
+.contact-form input[type="submit"]{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border:1px solid rgb(0, 204, 153);
+    background-color: rgb(0, 204, 153);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.contact-form input[type="submit"]:hover{
+    color: red;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(50, 50, 40);
+    padding: 35px 40px;
+}
+.ft-logo a{
+    display: block;
+    width: 300px;
+}
+.ft-logo p{
+    color:gray;
+    margin-left: 40px;
+}
+.ft-link{
+    display: flex;
+}
+.ft-link li{
+    margin: 10px;
+}
+.ft-link .fb-icon{
+    display: inline-block;
+    width: 34px;
+    height:34px;
+    background-image: url(../images/fb.png);
+}
+.ft-link .IG-icon{
+    display: inline-block;
+    width: 34px;
+    height:34px;
+    background-image: url(../images/ig.png);
+}
+.ft-link .twitter-icon{
+    display: inline-block;
+    width: 34px;
+    height:34px;
+    background-image: url(../images/tw.png);
+}
+
+
